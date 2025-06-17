@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reciclatón 2025</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    /* Portada */
+    .portada {
+      background-image: url('reciclaton-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    .portada h1 {
+      font-size: 3em;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .portada p {
+      font-size: 1.5em;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .boton {
+      padding: 12px 25px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 10px;
+      background-color: #81c784;
+      color: #1b5e20;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .boton:hover {
+      background-color: #66bb6a;
+    }
+
+    /* Contenido */
+    body {
+      background-color: #e6f4ea;
+      color: #2e7d32;
+    }
+
+    h1, h2, h3 {
+      color: #1b5e20;
+    }
+
+    .contenedor {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .explicacion, .seccion {
+      background-color: #f1f8e9;
+      padding: 15px;
+      border-left: 5px solid #81c784;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    .pregunta {
+      margin: 20px 0;
+    }
+
+    .respuestas button {
+      margin: 5px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      background-color: #a5d6a7;
+      color: #1b5e20;
+      font-weight: bold;
+    }
+
+    .respuestas button:hover {
+      background-color: #66bb6a;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .imagen {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0; top: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    .cerrar {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PORTADA -->
+  <section class="portada">
+    <h1♻️ Bienvenidos al Reciclatón 2025</h1>
+    <p>¡Unidos por un planeta más limpio! 🌍</p>
+    <button class="boton" onclick="document.getElementById('contenido').scrollIntoView()">Iniciar</button>
+  </section>
+
+  <!-- CONTENIDO -->
+  <div id="contenido" class="contenedor">
+    <h1>PROYECTO PAE</h1>
+    <h2>RECICLATÓN</h2>
+
+    <div class="explicacion">
+      <h3>¿Qué es el reciclaje informático?</h3>
+      <p><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reciclatón 2025</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    /* Portada */
+    .portada {
+      background-image: url('reciclaton-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    .portada h1 {
+      font-size: 3em;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .portada p {
+      font-size: 1.5em;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .boton {
+      padding: 12px 25px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 10px;
+      background-color: #81c784;
+      color: #1b5e20;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .boton:hover {
+      background-color: #66bb6a;
+    }
+
+    /* Contenido */
+    body {
+      background-color: #e6f4ea;
+      color: #2e7d32;
+    }
+
+    h1, h2, h3 {
+      color: #1b5e20;
+    }
+
+    .contenedor {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .explicacion, .seccion {
+      background-color: #f1f8e9;
+      padding: 15px;
+      border-left: 5px solid #81c784;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    .pregunta {
+      margin: 20px 0;
+    }
+
+    .respuestas button {
+      margin: 5px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      background-color: #a5d6a7;
+      color: #1b5e20;
+      font-weight: bold;
+    }
+
+    .respuestas button:hover {
+      background-color: #66bb6a;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .imagen {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0; top: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    .cerrar {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+    <div class="explicacion">
+      <h3>¿Qué es el reciclaje informático?</h3>
+      <p>El proceso típico de reciclaje de computadoras tiene como objetivo destruir los discos duros de forma segura sin dejar de reciclar los subproductos. Un proceso típico de reciclaje de computadoras eficaz logra lo siguiente: Recibir de hardware para su destrucción y se transporta de forma segura., etc.</p>
+    </div>
+
+    <div class="seccion">
+      <h3>Beneficios del Reciclatón</h3>
+      <p>Reducción de la contaminación.</p>
+      <p>Ahorro de recursos naturales.</p>
+      <p>Promueve la cultura ambiental en la comunidad.</p>
+      <p>Ayuda a reutilizar materiales útiles.</p>
+      <p>Menor emisión de gases de efecto invernadero.</p>
+    </div>
+
+    <div class="seccion">
+      <h3>📦 ¿Qué puedo llevar al Reciclatón?</h3>
+      <p> Computadoras de escritorio (PCs)</p>
+      <p>Teléfonos celulares y smartphones</p>
+      <p>Monitores (LCD, LED, CRT)</p>
+      <p>Pilas y baterías</p>
+    </div>
+
+    <div class="seccion">
+      <h3>Ejemplos del reciclaje</h3>
+      <p>Haz clic en las imágenes para ampliarlas.</p>
+      <img src="aa.jpeg" class="imagen" onclick="mostrarImagen(this.src)">
+      <img src="ee.jpeg" class="imagen" onclick="mostrarImagen(this.src)">
+      <img src="ii.jpeg" class="imagen" onclick="mostrarImagen(this.src)">
+      <img src="oo.jpeg" class="imagen" onclick="mostrarImagen(this.src)">
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal" onclick="cerrarModal()">
+      <span class="cerrar" onclick="cerrarModal()">&times;</span>
+      <img id="modal-img" src="">
+    </div>
+
+    <div class="seccion">
+      <h3>Video educativo sobre reciclaje</h3>
+      <iframe src="analy.mp4" title="Video educativo sobre reciclaje" allowfullscreen></iframe>
+    </div>
+
+    <div class="seccion">
+      <h3>🎮 Juego: Aprende a separar residuos</h3>
+      <p><strong>¿Cómo jugar?</strong> Lee la pregunta y elige el bote correcto para tirar el residuo.</p>
+      <p><strong>Colores de los botes:</strong></p>
+      <ul>
+        <li><strong>🟡 Amarillo:</strong> Plástico y metales</li>
+        <li><strong>🟢 Verde:</strong> Vidrio</li>
+        <li><strong>🟦 Azul:</strong> Papel y cartón</li>
+        <li><strong>⚫ Gris:</strong> No reciclables</li>
+        <li><strong>🟤 Marrón:</strong> Orgánicos</li>
+      </ul>
+
+      <div id="juego" class="pregunta">
+        <p id="pregunta-texto"></p>
+        <div class="respuestas">
+          <button onclick="responder('Amarillo')">🟡 Amarillo</button>
+          <button onclick="responder('Verde')">🟢 Verde</button>
+          <button onclick="responder('Azul')">🟦 Azul</button>
+          <button onclick="responder('Gris')">⚫ Gris</button>
+          <button onclick="responder('Marrón')">🟤 Marrón</button>
+        </div>
+        <p id="feedback"></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Modal de imagen
+    function mostrarImagen(src) {
+      document.getElementById('modal-img').src = src;
+      document.getElementById('modal').style.display = 'flex';
+    }
+
+    function cerrarModal() {
+      document.getElementById('modal').style.display = 'none';
+    }
+
+    // Juego
+    const preguntas = [
+      { texto: "¿Dónde se tira una botella de plástico?", respuesta: "Amarillo" },
+      { texto: "¿Dónde se tira una botella de vidrio?", respuesta: "Verde" },
+      { texto: "¿Dónde va una caja de cartón?", respuesta: "Azul" },
+      { texto: "¿Dónde tiras una cáscara de plátano?", respuesta: "Marrón" },
+      { texto: "¿Dónde va un pañal usado?", respuesta: "Gris" },
+      { texto: "¿Dónde tiras una lata de refresco?", respuesta: "Amarillo" }
+    ];
+
+    let indice = 0;
+    const preguntaTexto = document.getElementById("pregunta-texto");
+    const feedback = document.getElementById("feedback");
+
+    function mostrarPregunta() {
+      if (indice < preguntas.length) {
+        preguntaTexto.textContent = preguntas[indice].texto;
+        feedback.textContent = "";
+      } else {
+        preguntaTexto.textContent = "✨ ¡Has terminado el juego! ¡Buen trabajo reciclando!";
+        feedback.textContent = "";
+      }
+    }
+
+    function responder(color) {
+      if (indice >= preguntas.length) return;
+      if (preguntas[indice].respuesta === color) {
+        feedback.textContent = "✅ ¡Correcto!";
+        indice++;
+        setTimeout(mostrarPregunta, 1000);
+      } else {
+        feedback.textContent = "❌ Ups, esa no es la respuesta correcta.";
+      }
+    }
+
+    // Iniciar juego
+    mostrarPregunta();
+  </script>
+</body>
